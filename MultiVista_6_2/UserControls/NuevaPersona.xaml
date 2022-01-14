@@ -14,11 +14,15 @@
         <TextBox Text="{Binding Path=Persona.Edad}"></TextBox>
 
         <TextBlock Text="Nacionalidad"></TextBlock>
-        <ComboBox ItemsSource="{Binding Path=Nacionalidades}"></ComboBox>
 
-        <Button>+</Button>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
+            <ComboBox ItemsSource="{Binding Path=Nacionalidades}" Width="130"></ComboBox>
 
-        <Button>Aceptar</Button>
+            <Button Margin="10,0,0,0" Width="30">+</Button>
+        </StackPanel>
+        
+
+        <Button Width="130">Aceptar</Button>
 
     </StackPanel>
 </UserControl>

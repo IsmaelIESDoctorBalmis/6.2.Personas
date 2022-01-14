@@ -13,7 +13,7 @@
     </StackPanel>
 
         <Border BorderBrush="Black" BorderThickness="3" Margin="5">
-    <ContentControl>
+    <ContentControl Margin="10">
         
     </ContentControl>
 
